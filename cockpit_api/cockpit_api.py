@@ -35,7 +35,7 @@ class Api(object):
         self.verify = verify
 
         if self.verify is False:
-            urllib3.disable_warnings(urllib3.exceptions.InsecureRequestsWarning)
+            urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
         response = self._session.get(f'{self.url}/pages/menus', headers=self.headers, verify=self.verify)
 
