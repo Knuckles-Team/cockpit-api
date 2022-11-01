@@ -86,7 +86,7 @@ class Api(object):
     def post_content_item(self, model=None, data=None):
         if model is None:
             raise MissingParameterError
-        if data:
+        if data and len(data) > 0:
             try:
                 data = json.dumps(data, indent=4)
             except ValueError:
