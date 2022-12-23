@@ -1,5 +1,5 @@
 # Cockpit CMS API
-*Version: 0.1.1*
+*Version: 0.1.2*
 
 Cockpit CMS API Python Wrapper
 
