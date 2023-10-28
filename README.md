@@ -20,7 +20,7 @@
 ![PyPI - Wheel](https://img.shields.io/pypi/wheel/cockpit-api)
 ![PyPI - Implementation](https://img.shields.io/pypi/implementation/cockpit-api)
 
-*Version: 0.2.0*
+*Version: 0.3.0*
 
 Cockpit CMS API Python Wrapper
 
